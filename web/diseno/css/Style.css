@@ -1,0 +1,25 @@
+.gris{
+    background: #c4e3f3;
+}
+
+.centrado-tarjeta{
+    margin-left: 150px;
+}
+
+.nava-orange{
+    background: #5bc0de;
+    color: #000;
+}
+
+.row{
+    margin: auto 0!important;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(236, 240, 241, 0.2)!important;
+    // background: rgba(46, 51, 56, 0.02)!important;
+}
