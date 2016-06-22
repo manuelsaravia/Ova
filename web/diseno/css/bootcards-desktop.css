@@ -12,6 +12,16 @@
     height: 130px;
 }
 
+.bootcards-summary-item-test {
+    
+    background: rgba(236, 240, 241,1.0)!important;
+    display: block;
+    border-radius: 4px;
+    padding: 25px 10px;
+    text-align: center;
+    position: relative;
+    height: 100px;
+}
 /* NAVBAR */
 
 .navbar {

@@ -3,7 +3,11 @@
 }
 
 .centrado-tarjeta{
-    margin-left: 150px;
+    margin-left: 130px;
+}
+
+.centrado-tarjeta-test{
+    margin-left: 100px;
 }
 
 .nava-orange{
@@ -22,4 +26,53 @@
 .panel-transparent .panel-body{
     background: rgba(236, 240, 241, 0.2)!important;
     // background: rgba(46, 51, 56, 0.02)!important;
+}
+
+td{
+    height: 20px;
+    width: 20px;
+}
+
+.td-active{
+    border: 1px solid #000;
+}
+
+.input-crucigrama{
+    height: 20px;
+    width: 20px;
+}
+
+.btn-purple{
+    background-color: #9b59b6;
+    color: white;
+    border-color: #9b59b6;
+}
+
+.btn-purple:hover{
+    text-decoration: none !important;
+    color: #9b59b6 !important;
+    background-color: white;
+
+    -webkit-transition-property:all;
+    -moz-transition-property:all;
+    -o-transition-property:all;
+    -ms-transition-property:all;
+    transition-property:all;
+
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    -ms-transition-duration:0.5s;
+    transition-duration:0.5s;
+
+    -webkit-transition-timing-function:  ease-in-out;
+    -moz-transition-timing-function:  ease-in-out;
+    -o-transition-timing-function:  ease-in-out;
+    -ms-transition-timing-function:  ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.conTamano{
+    height: 1000px;
+    overflow: auto;
 }

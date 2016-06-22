@@ -38,9 +38,9 @@
 
         <br>
         <div class="row">
-            <div class="col-md-6 col-md-offset-1">
+            <div class="col-md-6 col-md-offset-1" style="margin-top: -20px">
                 <div class="page-header">
-                    <h1>OVA CEPEC <small>Aprende a crear empresa</small></h1>
+                    <h2>OVA CEPEC <small>Aprende a crear empresa</small></h2>
                 </div>
             </div>
             <div class="col-md-3 col-md-offset-1" style="margin-top: 50px;">
@@ -48,6 +48,7 @@
             </div>
         </div>
         <jsp:include page="tarjetas.jsp" />
+        <jsp:include page="evaluaciones.jsp" />
 
     </body>
 </html>
